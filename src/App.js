@@ -1,9 +1,184 @@
-import './App.css';
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <nav className="navbar app">App Bar</nav>
+      <nav className="navbar board">Board Bar</nav>
+      <div className="board-columns">
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+        <div className="column">
+          <header>Brainstorm</header>
+          <ul>
+            <li>
+              <img
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/283330017_1378636845982394_4714772817786910711_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=AuNjwp_CRioAX93cPBK&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCkFOtr_nalrUmGWU4p3xCR-iyE13jG9eAnGTM9xTmfgA&oe=6420ECC5"
+                alt="img"
+              />
+              Title: Ảnh Ok Chưa
+            </li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+            <li>Add what you'd like to work on below</li>
+          </ul>
+          <footer>Add another card</footer>
+        </div>
+      </div>
     </div>
   );
 }
